@@ -223,7 +223,7 @@ public class Matrix implements Writable {
      * Adds a row onto another row
      */
     public void addRowToRow(int row1, double[] row2) throws IndexOutOfBoundsException{
-        for(int i = 0; i<width; i++){
+        for(int i = 0; i<row2.length; i++){
             matrix[row1][i]+=row2[i];
         }
     }
@@ -392,3 +392,4 @@ public class Matrix implements Writable {
 
     }
 }
+

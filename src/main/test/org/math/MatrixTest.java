@@ -74,7 +74,7 @@ class MatrixTest {
     void getColumn() {
         m1 = new Matrix(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
         assertArrayEquals(m1.getColumn(1), new double[]{2,5,8});
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.getColumn(3));
 
     }
@@ -99,7 +99,7 @@ class MatrixTest {
         m1 = new Matrix(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
         m1.scaleRow(1, 2);
         assertArrayEquals(m1.getRow(1), new double[]{8,10,12});
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.scaleRow(3, 5));
     }
 
@@ -107,7 +107,7 @@ class MatrixTest {
     void getScaledRow() {
         m1 = new Matrix(new double[][]{{1,2,3},{4,5,6},{7,8,9}});
         assertArrayEquals(m1.getScaledRow(1,2), new double[]{8,10,12});
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.getScaledRow(3,1));
     }
 
@@ -116,9 +116,9 @@ class MatrixTest {
         m1 = new Matrix(new double[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}});
         m1.addRowToRow(0, new double[]{1,1,1});
         assertArrayEquals(m1.getRow(0), new double[]{2,3,4});
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.addRowToRow(3, new double[]{1,1,1}));
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.addRowToRow(2, new double[]{1,1,1,1}));
     }
 
@@ -128,7 +128,7 @@ class MatrixTest {
         m1.swapRows(0,1);
         assertArrayEquals(m1.getRow(0), new double[]{4,5,6});
         assertArrayEquals(m1.getRow(1), new double[]{1,2,3});
-        assertThrows(IllegalArgumentException.class, ()->
+        assertThrows(IndexOutOfBoundsException.class, ()->
                 m1.swapRows(1,3));
     }
 
