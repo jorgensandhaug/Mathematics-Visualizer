@@ -1,0 +1,144 @@
+.root{
+    /*-fx-background-color: green;*/
+}
+
+.popupWindow{
+    -fx-background-color: beige;
+    -fx-border-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+
+.variables{
+    -fx-border-radius: 2px;
+    -fx-border-color: grey;
+    -fx-border-width: 2px;
+    -fx-background-color: beige;
+}
+
+.variable{
+    -fx-font-family: Arial;
+    -fx-spacing: 10px;
+    -fx-padding: 5px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+}
+.variable-name {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+.variable-content{
+    -fx-font-size: 1.1em;
+}
+
+.variable-text{
+    -fx-spacing: 20px;
+    -fx-padding: 10px;
+}
+
+.showhide:hover {
+    -fx-cursor: hand;
+}
+
+.transparent-button{
+    -fx-border-color: transparent;
+    -fx-border-width: 1 1;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #828282;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.transparent-button:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1 1;
+    -fx-border-style: solid, segments(1, 2);
+    -fx-border-radius: 0, 0;
+    -fx-background-color: #d0b28b;
+    -fx-text-fill: white;
+}
+
+.transparent-button:hover {
+    -fx-cursor: hand;
+}
+
+.new-menu-button{
+    /*-fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;*/
+    -fx-font-size: 1.5em; /* 12 */
+}
+
+
+.new-menu-item{
+    -fx-font-size: 1.1em;
+}
+
+
+.menu-button{
+    -fx-max-height: 20px;
+}
+
+.split-pane-divider{
+    -fx-background-color: grey;
+}
+
+.split-pane-divider:hover{
+    -fx-background-color: black;
+}
+
+
+
+.gradient-button {
+    -fx-background-color:
+            radial-gradient(center 50% -40%, radius 200%, lightslategrey 45%, darkslategrey 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+.gradient-button:hover{
+    -fx-cursor: hand;
+    -fx-background-color:
+            linear-gradient(darkslategrey, darkolivegreen);
+}
+
+#toolBar{
+    -fx-spacing: 10px;
+}
+
+
+.check-box .box {
+    -fx-padding: 8px;
+    -fx-background-color: white;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #28a3f4;
+}
+
+.check-box:hover{
+    -fx-cursor: hand;
+}
+
+#root{
+    -fx-spacing: 5px;
+}
+
+#inputField{
+    -fx-padding: 5px;
+    -fx-max-width: 500px;
+}
+
+.meshList{
+    -fx-spacing: 5px;
+    -fx-background-color: blue;
+}
