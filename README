@@ -1,4 +1,4 @@
-Dette er en brukermanual for programmet
+Dette er en brukermanual for programmet.
 Programmet består av tre hovedvinduer: variabeloversikten, 2D-grafikkfelt og 3D-grafikkfelt.
 I tillegg tar programmet imot brukerinput gjennom et inputfield og gjennom egne menyer på toppen av vinduet.
 Grafikkfeltenes funksjon er å fremvise de definerte variablene i hendholdsvis 2D og 3D.
