@@ -35,7 +35,7 @@ Followed by one of the vollowing patterns:
 \* cos(), sin(), abs() and log() are supported 
 
 In addition to this it is possible to create new variables by inputing predefined variables into one of the following functions:  
-*The functions are listed on the following format: <list parameters represented by their type> to <list of functions>    
+*The functions are listed on the following format: \<list parameters represented by their type> to \<list of functions>    
 
 - real scalar to real scalar: cos(x), sin(x), tan(x), log(x), abs(x)
 - vector, vector to vector: add(u,v), subtract(u,v), cross(u,v)
