@@ -1,5 +1,10 @@
 # Overview 
-The application consists of three windows:
+
+## About
+The project was created by Jørgen Sandhaug and Halvor Linder to compute and visualize mathematical expressions and objects. 
+It is programmed in Java and build using Maven. JavaFX is used for graphical elements.
+## Structure 
+The application consists of three windows:  
 - The input window
 - The 2D graphics window
 - The 3D graphics window
@@ -8,7 +13,7 @@ The input window is used for defining variables and functions, while the 2D and 
 ![image](https://user-images.githubusercontent.com/56249210/138767908-797cfc1e-e840-4a56-a200-d2f2dc4ad36e.png)
 
 
-## List of features
+# List of features
 ### Variable manipulation
 - Define variables by typing a variable declaration into the input field
 - Define variables by using the "Add 2D Shape" and "Add 3D shape" buttons
@@ -22,7 +27,7 @@ The input window is used for defining variables and functions, while the 2D and 
 - Change the display colors of variables by clicking on their black square and selecting a color
 - Transform a vector by clicking on it's options and choosing transform, supplying a valid matrix. This will play an animation.
 
-## How to use the input field
+# How to use the input field
 Variables are defined by typing <variable_name>=  
 Followed by one of the vollowing patterns:
 - v = \[1.0,-5.7, ... ] for vector  
@@ -55,10 +60,15 @@ In addition to this it is possible to create new variables by inputing predefine
 
  Many of the functions require that the input be of a certain dimention according to mathematical conventions.
  
- ## Demonstration
+ # Demonstration
  These are videos showcasing some key features of the app.  
  For some reason the modal window components were not recorded.  
  
 https://user-images.githubusercontent.com/56249210/138776143-672c7d2f-dab8-4d49-9691-b918a0827e58.mp4
 
 https://user-images.githubusercontent.com/56249210/138776407-8cd783c1-fb7f-439c-a604-6719eccab336.mp4
+
+# How to run 
+The project can be run by simply downloading the file called Linear Algebra Visualizer.jar and opening it, given that java is installed correctly.
+
+
