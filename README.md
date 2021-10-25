@@ -54,3 +54,12 @@ In addition to this it is possible to create new variables by inputing predefine
 - function to function: derivative(f)
 
  Many of the functions require that the input be of a certain dimention according to mathematical conventions.
+ 
+ ## Demonstration
+ This is a video showcasing some key features of the app.  
+ For some reason the modal window components were not recorded.  
+ 
+
+https://user-images.githubusercontent.com/56249210/138776143-672c7d2f-dab8-4d49-9691-b918a0827e58.mp4
+
+
