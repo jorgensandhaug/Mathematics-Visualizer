@@ -12,6 +12,8 @@ The input window is used for defining variables and functions, while the 2D and 
 
 ![image](https://user-images.githubusercontent.com/56249210/138767908-797cfc1e-e840-4a56-a200-d2f2dc4ad36e.png)
 
+A user manual can be found [here](USER_MANUAL.md)
+
 
 # List of features
 ### Variable manipulation
