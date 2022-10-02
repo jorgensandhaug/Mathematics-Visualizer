@@ -9,6 +9,7 @@
         <module name="Linalg" />
         <module name="LinalgVisualizer" />
         <module name="LinalgVisualizer(fxml)" />
+        <module name="Mathematics-Visualizer" />
       </profile>
     </annotationProcessing>
   </component>
