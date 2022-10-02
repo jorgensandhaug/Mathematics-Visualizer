@@ -70,6 +70,11 @@ https://user-images.githubusercontent.com/56249210/138776143-672c7d2f-dab8-4d49-
 
 https://user-images.githubusercontent.com/56249210/138776407-8cd783c1-fb7f-439c-a604-6719eccab336.mp4
 
+The 3D renderer can also render custom .obj files as well as simple shapes:
+![car obj](demo_files/car.png)
+![sphere](demo_files/sphere.png)
+
+
 # How to run 
 The project can be run by simply downloading the file called Linear Algebra Visualizer.jar and opening it, given that java is installed correctly.
 
